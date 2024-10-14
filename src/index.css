@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Setting the font family */
+:root {
+    font-family: "Inter", sans-serif;
+}
+
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* Add this to your CSS file */
+.nav-links {
+    opacity: 0;
+    transform: translateX(-10px); /* Start slightly above */
+    transition: opacity 1.3s ease, transform 1.3s ease; /* Transition for opacity and transform */
+  }
+  
+  .nav-links.show {
+    opacity: 1;
+    transform: translateX(0); /* Move to original position */
+  }
+  .tech-icon:hover {
+    box-shadow: 0 0 20px 5px rgba(128,90,213,0.7); /* Glowing light effect */
+    transform: scale(1.1); /* Optional: slight zoom on hover */
+    transition: transform 0.0s ease-in-out, box-shadow 0.0s ease-in-out;
+  }
+  .card-container {
+    perspective: 1000px;
+    width: 320px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+  }
+  
+  .card-container:hover .card {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+  }
+  
