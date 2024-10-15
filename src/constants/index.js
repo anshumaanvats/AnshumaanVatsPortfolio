@@ -15,13 +15,13 @@ import patent4 from "../assets/documents/202311063488.pdf";
 import patent3 from "../assets/documents/202311063214.pdf";
 import patent2 from "../assets/documents/202311064317.pdf";
 import patent1 from "../assets/documents/202311063490.pdf";
-import video7 from "/videos/WHEEL CHAIR.mp4";
-import video6 from "/videos/SERVING ROBOT.mp4";
-import video5 from "/videos/SMART SPEAKER.mp4";
-import video4 from "/videos/PARKING SYSTEM.mp4";
+import video7 from "/videos/WHEEL_CHAIR.mp4";
+import video6 from "/videos/SERVING_ROBOT.mp4";
+import video5 from "/videos/SMART_SPEAKER.mp4";
+import video4 from "/videos/PARKING_SYSTEM.mp4";
 import video3 from "/videos/BRAINY.mp4";
-import video2 from "/videos/TRUCK OVERLOADING.mp4";
-import video1 from "/videos/AUTOMATED FAN.mp4";
+import video2 from "/videos/TRUCK_OVERLOADING.mp4";
+import video1 from "/videos/AUTOMATED_FAN.mp4";
 
 export const HERO_CONTENT = `I am a passionate Software Engineer with 3 years of hands-on experience in building advanced, integrated solutions. I specialize in designing scalable web applications, automating business processes using tools like UiPath and Automation Anywhere, and developing intelligent robotic systems that integrate IoT, sensors, and embedded technologies. My goal is to create innovative solutions that enhance automation, improve efficiency, and drive technological advancements across industries.`;
 
