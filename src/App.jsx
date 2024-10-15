@@ -11,23 +11,23 @@ import Contact from "./components/Contact";
 import Patents from "./components/Patents";
 
 // Import all wallpaper videos
-import defaultVideo from '/wallpapers/default.mp4';
-import wp1 from '/wallpapers/wp1.mp4';
-import wp2 from '/wallpapers/wp2.mp4';
-import wp3 from '/wallpapers/wp3.mp4';
-import wp4 from '/wallpapers/wp4.mp4';
-import wp5 from '/wallpapers/wp5.mp4';
-import wp6 from '/wallpapers/wp6.mp4';
-import wp7 from '/wallpapers/wp7.mp4';
-import wp8 from '/wallpapers/wp8.mp4';
-import wp9 from '/wallpapers/wp9.mp4';
-import wp10 from '/wallpapers/wp10.mp4';
-import wp11 from '/wallpapers/wp11.mp4';
-import wp12 from '/wallpapers/wp12.mp4';
-import wp13 from '/wallpapers/wp13.mp4';
+import defaultVideo from '/wallpapers/default.webm';
+//import wp1 from '/wallpapers/wp1.webm';
+import wp2 from '/wallpapers/wp2.webm';
+import wp3 from '/wallpapers/wp3.webm';
+import wp4 from '/wallpapers/wp4.webm';
+import wp5 from '/wallpapers/wp5.webm';
+//import wp6 from '/wallpapers/wp6.webm';
+import wp7 from '/wallpapers/wp7.webm';
+import wp8 from '/wallpapers/wp8.webm';
+import wp9 from '/wallpapers/wp9.webm';
+import wp10 from '/wallpapers/wp10.webm';
+import wp11 from '/wallpapers/wp11.webm';
+import wp12 from '/wallpapers/wp12.webm';
+import wp13 from '/wallpapers/wp13.webm';
 
 const wallpapers = [
-  defaultVideo, wp1, wp2, wp3, wp4, wp5, wp6, wp7, wp8, wp9, wp10, wp11, wp12, wp13
+  defaultVideo, /*wp1,*/ wp2, wp3, wp4, wp5, /*wp6,*/ wp7, wp8, wp9, wp10, wp11, wp12, wp13
 ];
 
 const App = () => {
